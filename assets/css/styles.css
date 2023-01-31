@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFEE9E;
+    min-height: 6vh;
+}
+
+main{
+    min-height: 84vh;
+    background: #FEE17D;
+}
+
+
+footer{
+    min-height: 10vh;
+    background: #b92f6e 
+}
+
+div>img{
+    height: 11rem;
+}
+table{
+    border:2px solid black ;
+    
+}
+
+tbody tr{
+    height: 2rem;
+}
+
+td{
+    color: rgb(0, 0, 0)
+
+}
+label{
+    font-size: 1.3rem;
+    color: #D90368;
+}
+
+textarea{
+    resize: none;
+}
+
+a[href="#"]{
+    background-color: #D90368;
+    color: white;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+h2{
+    color: #b30753;
+}
+
+.nav-link{
+    padding: 1 2rem;
+    margin-right: 1rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.headtabla{
+    height: 4rem;
+    color: #FEE17D;
+    background-color: #b92f6e;
+    font-size: 1.5rem;
+}
+
+.formulario{
+    background-color: #b92f6e;
+    color: #d9db6f;
+    border: 2px solid black;
+}
+
+.enviar{
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    background-color: #b92f6e;
+    color: #d9db6f;
+}
+
+.enviar:focus{
+    background-color: transparent;
+}
+
+.flechas{
+    width: 4rem;
+}
+
+.carta{
+    width: 18rem;
+    height: 25rem;
+    padding: 0;
+    background: #D90368;
+    color: #FEE17D;
+    margin: 1rem 0;
+}
+.carou{
+    object-fit: cover;
+}
+
+.boton{
+    background-color: rgb(153, 77, 109);
+    color: #FEE17D;
+}
+
+.logo{
+    width: 8rem;
+}
+
+.imgFooter{
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.h3Footer{
+    margin-right: 5rem;
+    color: #571935;
+    
+}
+
+.price{
+    margin-bottom: .5rem;
+}
+.buscador{
+    width: 30rem;
+    background-color: #b30753;
+    border-radius: 3px;
+    color: rgb(224, 223, 143);
+}
+.lupa{
+    width: 2rem;
+}
+.detailsCard{
+    width: 75%;
+    background-color: #FFEE9E;
+    color: #b30753;
+}
+.img-details{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.card-span{
+    text-decoration: underline;
+    font-weight:bolder;
+}
+.color{
+    background-color: #280f34;
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+}
+.filtro{
+    display: none;
+}
+.notFound{
+    color: #d1499d;
+    font-weight: 900;
+}
+
+@media (max-width:1400px){
+    header{
+        height: auto;
+    }
+    .details{
+        height: 100%;
+        object-fit: cover;
+    }
+    .buscador{
+        width: 25rem;
+    }
+    .lupa{
+        width: 2rem;
+    }
+    
+    .detailsCard{
+        width: 100%;
+    }
+
+    .flechas{
+        width: 3rem;
+    }
+
+    main{
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .carta{
+        margin: 1rem 0;
+    }
+
+    .nav-link{
+        padding: 1 2rem;
+        margin-right: 1rem;
+        border: none;
+    }
+
+    .nav-link:hover{
+        background-color: transparent;
+    }
+
+    .imgFooter{
+        width: 3rem;
+        margin-left: 0rem;
+    }
+    
+    .h3Footer{
+        margin-right: 0rem;
+    }
+
+    footer{
+        height: auto;
+    }
+}
+
+@media (max-width:767px){
+    header{
+        height: auto;
+    }
+    .buscador{
+        width: 20rem;
+        margin-top: 1rem;
+    }
+    .lupa{
+        width: 2rem;
+    }
+
+    main{
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .flechas{
+        width: 2rem;
+    }
+
+    .cajitas{
+        flex-direction: column;
+    }
+    .carta{
+        margin: 1rem 0;
+    }
+
+    .nav-link{
+        padding: 1 2rem;
+        margin-right: 1rem;
+        border: none;
+    }
+    .detailsCard{
+        width: 100%;
+    }
+    .nav-link:hover{
+        background-color: transparent;
+    }
+
+    .imgFooter{
+        width: 2.5rem;
+        margin-left: 0rem;
+    }
+    
+    .h3Footer{
+        margin-right: 0rem;
+        text-align: center;
+    }
+
+    footer{
+        height: auto;
+    }
+}
